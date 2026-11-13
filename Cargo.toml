@@ -1,0 +1,17 @@
+[package]
+name = "parapet"
+version = "0.1.0"
+edition = "2021"
+authors = ["Nirjar Goswami <nirjargoswami2626@gmail.com>"]
+description = "Blazing-fast zero-browser static site integrity auditor, dead DOM anchor detector, and CSP drift checker in under 30ms."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/nirjxr26/parapet"
+homepage = "https://github.com/nirjxr26/parapet"
+keywords = ["static-site", "verifier", "linter", "broken-links", "csp"]
+categories = ["command-line-utilities", "web-programming"]
+
+[dependencies]
+regex = "1.11"
+sha2 = "0.10"
+base64 = "0.22"
